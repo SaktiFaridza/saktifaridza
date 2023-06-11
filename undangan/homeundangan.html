@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Undangan Pernikahan</title>
+  <link rel="stylesheet" type="text/css" href="home.css">
+  
+  
+</head>
+
+<body class="background" background="./img/bg.jpg">
+    
+    <div class="topbar">
+        <img src="./img/topbar.png">
+        <div class="topbar-logo"></div>
+        <ul class="topbar-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Lokasi Detail</a></li>
+          <li><a href="#">Menu Parasmanan</a></li>
+          <li><a href="#">Kontak Pengaduan Resepsi</a></li>
+        </ul>
+      </div>
+  <div class="container">
+    <div class="container">
+        <video id="video1" src="./sound/bgmusic.mp3"></video>
+        <div class="center">
+            <button onclick="playPause()">Klik Untuk Absen Kedatangan</button>
+        </div>
+    </div>
+
+    <script>
+        const myVideo = document.getElementById("video1");
+
+        function playPause() {
+            // saat buttonOnclick kita klik maka otomatis lagu langsung berjalan
+            myVideo.play();
+        }
+    </script>
+
+    <h1>Undangan Pernikahan</h1>
+   
+    <div class="content">
+      <h2>Risma Anjeliani &amp; Sakti Faridza</h2>
+      <center><table >
+        <td><img src ="./img/img1.jpg" width="150" height="250" border="1" title="Risma&Sakti"></td>
+        <td><img src ="./img/img2.jpg"width="150" height="250" border="1" title="Risma&Sakti"></td>
+        <td><img src ="./img/img3.jpg" width="150" height="250"border="1" title="Risma&Sakti"></td>
+        </table>
+       </center>
+      <p>Meminta kehormatan dan kebahagiaan Anda untuk bergabung dalam pernikahan mereka:</p>
+      <p>Tanggal: 10 Juli 2023</p>
+      <p>Waktu: 10.00 WIB s.d Selesai</p>
+      <p>Tempat: Gedung Graha Mekar Wangi</p>
+      <p>Alamat: Jl.Mekar Wangi</p>
+      <p>Silakan merespon kehadiran Anda</p>
+      <div class="rsvp">
+        <h3>Respon</h3>
+        <form>
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" required>
+          <br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <br>
+          <label for="Kataucapan">Doa dan Ucapan Tentang Pernikahan</label>
+          <input type="kataucapan" id="kataucapan" name="kataucapan" required>
+          <br>
+          <input type="submit" value="Kirim Respon">
+          <br>
+          
+        </form>
+      </div>
+    </div>
+  </div>
+
+</html>

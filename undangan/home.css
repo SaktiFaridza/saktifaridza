@@ -1,0 +1,97 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    color: #666;
+  }
+  
+  p {
+    color: #888;
+  }
+  
+  form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"],
+  input[type="kataucapan"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  .topbar {
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .topbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Berlian;
+  }
+  
+  .topbar-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .topbar-menu li {
+    margin-left: 10px;
+  }
+  
+  .topbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .topbar-menu li a:hover {
+    background-color: #555;
+  }
+  img{
+    weight:100px;
+    height: 250px;
+    border-radius: 15px;
+  }
+  
+  .container {
+    height: 1px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    padding-top: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
